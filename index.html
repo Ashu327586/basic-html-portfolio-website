@@ -5,29 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1 style="text-align: center; "><b><i>Ashutosh R. Singh's Portfolio</i></b></h1>
-    <h3 style="text-align: right;">-Web Developer</h3>
-    <hr>
+    <header>
+        <h1 style="text-align: center; "><b><i>Ashutosh R. Singh's Portfolio</i></b></h1>
+        <h3 style="text-align: right;">-Web Developer</h3>
+    </header>
+
     <p>
     <h2>Hey there!, so you have landed to my portfolio webpage. This site is gonna showcase some of my projects which I
-        have created as a part of my full stack developer course. Have a look through them <div class="br"></div>
+        have created as a part of my full stack developer course. Have a look through them.
     </h2>
     </p>
-    <ol>
-        <li><a href="./public/proj1-movie ranking.html">Movie ranking project</a></li>
-        <img height="300" width="300" src="./assets/images/movie.png" alt="best movies project preview">
-        <hr>
-        <li><a href="./public/proj2-birthday invitation.html">Birthday invitation</a></li>
-        <img height="300" width="300" src="./assets/images/bday.png" alt="birthday invitation preview">
-        <hr>
-        <li><a href="https://ashu327586.github.io/Resume/">Resume using HTML</a></li>
-        <img width="300" height="300" src="./assets/images/resume.png" alt="resume pic">
-    </ol>
-    <button><a href="./public/about.html">About me</a></button>
-    <button><a href="./public/contact.html">Contact</a></button>
+
+    <div class="main">
+        <div class="projects" id="a">
+            <a href="./public/proj1-movie ranking.html">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cNUBUIqHvwRjE--HP9KoigHaFP%26pid%3DApi&f=1&ipt=b1d436c243b913ed76b267cc9e987994ac110db7dd4cf11e42ce0e3a8940302d&ipo=images"
+                    alt="movie posters">
+            </a>
+            <p id="x">
+                Movie Ranking
+            </p>
+        </div>
+        <div class="projects" id="b">
+            <a href="./public/proj2-birthday invitation.html">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qAq9gt4xNy3BVwI63UmuLAHaE8%26pid%3DApi&f=1&ipt=bab15e4836331143e863064b8013f99960b0b96e5db1ef204b02e4ebe433dfdd&ipo=images"
+                    alt="cake">
+            </a>
+            <p id="y">Birthday Invitation</p>
+        </div>
+
+
+        <div class="projects" id="c">
+            <a href="https://ashu327586.github.io/Resume/">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.S9FMLz0Gl7l_xvgCiKoVKgHaE8%26pid%3DApi&f=1&ipt=a81a48b0e4ced8f3ae745d0764ab8b09e09df73f019398c2d39931e74fe51f84&ipo=images"
+                    alt="Resume">
+            </a>
+            <p id="z">
+                My Resume
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <button><a href="./public/about.html">About me</a></button>
+        <button><a href="./public/contact.html">Contact</a></button>
+    </footer>
 </body>
 
 </html>
